@@ -1,4 +1,4 @@
 #s1=input()
 #s2=str(input())
-l=eval(input())
-print(",".join(l))
+l=[e for e in input().split(",")]
+print(" ".join(l))
